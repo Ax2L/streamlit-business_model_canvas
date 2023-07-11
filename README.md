@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-pip install business_model_canvas
+pip install streamlit-bmc-component
 ```
 
 ## Getting started
@@ -13,7 +13,7 @@ pip install business_model_canvas
 ```python
 import streamlit as st
 
-from streamlit_business_model_canvas import st_bmc
+from streamlit-bmc-component import st_bmc
 
 # Spawn a new MBC editor
 # Re-generate your JSON data
@@ -81,7 +81,7 @@ data = {
 }
 
 # binding into model
-business_model_canvas(data)
+st_bmc.business_model_canvas(data)
 
 # Display editor's content as you type
 content
@@ -98,7 +98,7 @@ content
 [share_img]: https://raw.githubusercontent.com/okld/streamlit-ace/main/preview.png
 
 [github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
-[github_link]: https://github.com/okld/streamlit-ace
+[github_link]: https://github.com/teq-thuynguyen/streamlit-business_model_canvas
 
 [pypi_badge]: https://badgen.net/pypi/v/streamlit-ace?icon=pypi&color=black&label
 [pypi_link]: https://pypi.org/project/streamlit-ace
