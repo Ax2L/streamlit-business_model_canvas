@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="streamlit-bmc-component",
+    name="streamlit_bmc",
     version="0.0.1",
     author="Ember",
     author_email="nguyencaonguyenthuy@gmail.com",

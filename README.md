@@ -5,7 +5,7 @@
 ## Installation
 
 ```sh
-pip install streamlit-bmc-component
+pip install streamlit-bmc
 ```
 
 ## Getting started
@@ -13,7 +13,7 @@ pip install streamlit-bmc-component
 ```python
 import streamlit as st
 
-from streamlit-bmc-component import st_bmc
+from streamlit_bmc import st_bmc
 
 # Spawn a new MBC editor
 # Re-generate your JSON data
@@ -81,10 +81,10 @@ data = {
 }
 
 # binding into model
-st_bmc.business_model_canvas(data)
+st_bmc(data)
 
 # Display editor's content as you type
-content
+#content
 ```
 
 ## Demo
