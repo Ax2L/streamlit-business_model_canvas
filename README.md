@@ -89,7 +89,7 @@ st_bmc(data)
 
 ## Demo
 
-[![Open in Streamlit][share_badge]][share_link] 
+<!-- [![Open in Streamlit][share_badge]][share_link]  -->
 
 [![Preview][share_img]][share_link]
 
@@ -101,4 +101,4 @@ st_bmc(data)
 [github_link]: https://github.com/teq-thuynguyen/streamlit-business_model_canvas
 
 [pypi_badge]: https://badgen.net/pypi/v/streamlit-ace?icon=pypi&color=black&label
-[pypi_link]: https://pypi.org/project/streamlit-bmc/0.0.2/
+[pypi_link]: https://pypi.org/project/streamlit-bmc/
