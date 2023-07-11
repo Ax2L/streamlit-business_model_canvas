@@ -1,4 +1,4 @@
-# 📝 Streamlit - Business Model Canvas
+# 🛄 Streamlit - Business Model Canvas
 
 [![GitHub][github_badge]][github_link] [![PyPI][pypi_badge]][pypi_link] 
 
@@ -95,10 +95,10 @@ st_bmc(data)
 
 [share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
 [share_link]: https://share.streamlit.io/okld/streamlit-gallery/main?p=ace-editor
-[share_img]: https://raw.githubusercontent.com/okld/streamlit-ace/main/preview.png
+[share_img]: https://raw.githubusercontent.com/teq-thuynguyen/streamlit-business_model_canvas/main/preview.png
 
 [github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
 [github_link]: https://github.com/teq-thuynguyen/streamlit-business_model_canvas
 
 [pypi_badge]: https://badgen.net/pypi/v/streamlit-ace?icon=pypi&color=black&label
-[pypi_link]: https://pypi.org/project/streamlit-ace
+[pypi_link]: https://pypi.org/project/streamlit-bmc/0.0.2/
