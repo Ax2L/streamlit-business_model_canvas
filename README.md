@@ -12,8 +12,14 @@ pip install streamlit-bmc
 
 ```python
 import streamlit as st
-
 from streamlit_bmc import st_bmc
+
+st.set_page_config(
+    page_title="",
+    page_icon="🧊",
+    layout="wide",
+    initial_sidebar_state="expanded"
+)
 
 # Spawn a new MBC editor
 # Re-generate your JSON data
