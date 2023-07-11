@@ -2,13 +2,13 @@ import setuptools
 
 setuptools.setup(
     name="streamlit_bmc",
-    version="0.0.1",
+    version="0.0.2",
     author="Ember",
     author_email="nguyencaonguyenthuy@gmail.com",
-    description="",
-    long_description="",
+    description="A Streamlit Component for drawing Business Model Canvas",
+    long_description="A Streamlit Component for drawing Business Model Canvas",
     long_description_content_type="text/plain",
-    url="",
+    url="https://github.com/teq-thuynguyen/streamlit-business_model_canvas",
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[],
