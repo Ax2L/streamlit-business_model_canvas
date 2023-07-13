@@ -5,7 +5,7 @@ import streamlit.components.v1 as components
 # the component, and True when we're ready to package and distribute it.
 # (This is, of course, optional - there are innumerable ways to manage your
 # release process.)
-_RELEASE = True
+_RELEASE = False
 
 # Declare a Streamlit component. `declare_component` returns a function
 # that is used to create instances of the component. We're naming this
@@ -27,7 +27,7 @@ if not _RELEASE:
         # Pass `url` here to tell Streamlit that the component will be served
         # by the local dev server that you run via `npm run start`.
         # (This is useful while your component is in development.)
-        url="http://localhost:3000",
+        url="http://localhost:3001",
     )
 else:
     # When we're distributing a production version of the component, we'll
@@ -77,7 +77,7 @@ def st_bmc(data, key=None):
 
 # Add some test code to play with the component while it's in development.
 # During development, we can run this just as we would any other Streamlit
-# app: `$ streamlit run business_model_canvas/__init__.py`
+# app: `$ streamlit run streamlit_bmc/__init__.py`
 if not _RELEASE:
     import streamlit as st
     # Create an instance of our component with a constant `data` arg, and
