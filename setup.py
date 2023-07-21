@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name="streamlit_bmc",
-    version="0.0.2",
+    version="0.0.3",
     author="Ember",
     author_email="nguyencaonguyenthuy@gmail.com",
     description="A Streamlit Component for drawing Business Model Canvas",
