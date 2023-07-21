@@ -11,14 +11,17 @@
     --color-text: #333333;
   }
 
+  html {
+    background: #FFFFFF;
+  }
+
 	/* Write your CSS here */
   body {
-    border-radius: 6px;
+    border-radius: 26px;
     border: 1px solid #ddd;
-    padding: 48px;
+    padding: 16px 0;
     background: #F7F7F7 url(./img/bg.png);
-    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.20);
-    font-family: Inter;
+    font-family: 'Work Sans', sans-serif;
   }
 
   .container-fluid {
@@ -29,15 +32,18 @@
     display: block;
     padding: 14px 0;
     border-radius: 4px;
-    background: #476169;
-    /* showdown */
-    box-shadow: 0px 0px 20px 4px rgba(201, 201, 201, 0.17);
-    color: #E8E8E8;
-    font-size: 36px;
+    color: #333;
+    font-size: 26px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
     width: 100%;
+  }
+
+  .bmc-title span {
+    color: #707070;
+    font-size: 18px;
+    font-weight: 400;
   }
 
   .grids {
@@ -55,6 +61,10 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
     margin-top: 12px;
+  }
+
+  .grid-vertical {
+    row-gap: 0;
   }
 
   .grid-vertical .cards {
@@ -103,15 +113,15 @@
     align-items: center;
   }
 
-  .icon-1 { background-color: var(--color-1); }
-  .icon-2 { background-color: var(--color-2); }
-  .icon-3 { background-color: var(--color-3); }
-  .icon-4 { background-color: var(--color-4); }
-  .icon-5 { background-color: var(--color-5); }
-  .icon-6 { background-color: var(--color-6); }
-  .icon-7 { background-color: var(--color-7); }
-  .icon-8 { background-color: var(--color-8); }
-  .icon-9 { background-color: var(--color-9); }
+  .icon-partner { background-color: var(--color-1); }
+  .icon-activities { background-color: var(--color-2); }
+  .icon-resources { background-color: var(--color-3); }
+  .icon-value-p { background-color: var(--color-4); }
+  .icon-customer-r { background-color: var(--color-5); }
+  .icon-channels { background-color: var(--color-6); }
+  .icon-customer-s { background-color: var(--color-7); }
+  .icon-cost { background-color: var(--color-8); }
+  .icon-revenue { background-color: var(--color-9); }
 
   .icon::after {
     display: block;
@@ -120,22 +130,20 @@
     height: 24px;
   }
 
-  .icon-par::after { background-image: url(./img/icon-par.svg); }
-  .icon-act::after { background-image: url(./img/icon-act.svg); }
-  .icon-res::after { background-image: url(./img/icon-res.svg); }
-  .icon-val::after { background-image: url(./img/icon-val.svg); }
-  .icon-rel::after { background-image: url(./img/icon-rel.svg); }
-  .icon-cha::after { background-image: url(./img/icon-cha.svg); }
-  .icon-seg::after { background-image: url(./img/icon-seg.svg); }
-  .icon-cos::after { background-image: url(./img/icon-cos.svg); }
-  .icon-rev::after { background-image: url(./img/icon-rev.svg); }
+  .icon-partner::after { background-image: url(./img/icon-par.svg); }
+  .icon-activities::after { background-image: url(./img/icon-act.svg); }
+  .icon-resources::after { background-image: url(./img/icon-res.svg); }
+  .icon-value-p::after { background-image: url(./img/icon-val.svg); }
+  .icon-customer-r::after { background-image: url(./img/icon-rel.svg); }
+  .icon-channels::after { background-image: url(./img/icon-cha.svg); }
+  .icon-customer-s::after { background-image: url(./img/icon-seg.svg); }
+  .icon-cost::after { background-image: url(./img/icon-cos.svg); }
+  .icon-revenue::after { background-image: url(./img/icon-rev.svg); }
 
   .item-heading span {
     color: var(--color-text);
-    font-family: Inter;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     line-height: normal;
   }
 
@@ -150,16 +158,16 @@
   }
 
   .note {
-    width: 134px;
+    width: 126px;
     height: 134px;
-    padding: 16px;
+    padding: 14px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     background-size: contain;
     box-sizing: border-box;
     background-repeat: no-repeat;
-    font-size: 14px;
+    font-size: 13px;
     overflow: hidden;
     cursor: pointer;
   }
@@ -169,15 +177,15 @@
     text-decoration: line-through;
   }
 
-  .note-1 { background-image: url(./img/bg-card-1.png); }
-  .note-2 { background-image: url(./img/bg-card-2.png); }
-  .note-3 { background-image: url(./img/bg-card-3.png); }
-  .note-4 { background-image: url(./img/bg-card-4.png); }
-  .note-5 { background-image: url(./img/bg-card-5.png); }
-  .note-6 { background-image: url(./img/bg-card-6.png); }
-  .note-7 { background-image: url(./img/bg-card-7.png); }
-  .note-8 { background-image: url(./img/bg-card-8.png); }
-  .note-9 { background-image: url(./img/bg-card-9.png); }
+  .note-partner { background-image: url(./img/bg-card-1.png); }
+  .note-activities { background-image: url(./img/bg-card-2.png); }
+  .note-resources { background-image: url(./img/bg-card-3.png); }
+  .note-value-p { background-image: url(./img/bg-card-4.png); }
+  .note-customer-r { background-image: url(./img/bg-card-5.png); }
+  .note-channels { background-image: url(./img/bg-card-6.png); }
+  .note-customer-s { background-image: url(./img/bg-card-7.png); }
+  .note-cost { background-image: url(./img/bg-card-8.png); }
+  .note-revenue { background-image: url(./img/bg-card-9.png); }
 
   .note span {
     overflow: hidden;
