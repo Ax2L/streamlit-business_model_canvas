@@ -100,11 +100,11 @@ st_bmc(data)
 [![Preview][share_img]][share_link]
 
 [share_badge]: https://static.streamlit.io/badges/streamlit_badge_black_white.svg
-[share_link]: 
+[share_link]: http://bmc.dev.teqn.asia/
 [share_img]: https://raw.githubusercontent.com/teq-thuynguyen/streamlit-business_model_canvas/main/preview.png
 
 [github_badge]: https://badgen.net/badge/icon/GitHub?icon=github&color=black&label
 [github_link]: https://github.com/teq-thuynguyen/streamlit-business_model_canvas
 
-[pypi_badge]: 
+[pypi_badge]: https://img.shields.io/badge/version-0.0.3-blue
 [pypi_link]: https://pypi.org/project/streamlit-bmc/
